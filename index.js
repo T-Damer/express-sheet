@@ -29,20 +29,6 @@ app.post('/', async (req, res) => {
   const spreadsheetId =
     '1nnj_zBQCFMr-EUdzXe-Bo_bonlZ0YvlVuAJ3AoNb9YU'
 
-  // Authenticate and Get metadata about spreadsheet
-  const metaData = await googleSheets.spreadsheets.get({
-    auth,
-    spreadsheetId,
-  })
-
-  // Read rows from spreadsheet
-  const getRows =
-    await googleSheets.spreadsheets.values.get({
-      auth,
-      spreadsheetId,
-      range: 'A:A',
-    })
-
   // Write row(s) to spreadsheet
   await googleSheets.spreadsheets.values.append({
     auth,
