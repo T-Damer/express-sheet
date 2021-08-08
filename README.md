@@ -41,11 +41,10 @@ List of variables:
 Run the development server:
 
 `nodemon index.js`
+(`node index.js` for deployment)
 
 Open in browser:
-<a href="localhost:1337">localhost:1337</a>
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[localhost:1337](http://localhost:1337/)
 
 ---
 
