@@ -5,14 +5,14 @@ const app = express()
 const router = express.Router()
 app.set('view engine', 'html')
 app.use(express.static(__dirname + '/public'))
+app.use(express.urlencoded({ extended: true }))
 app.use('/', router)
-// app.use(express.urlencoded({ extended: true }))
 
-app.get('/', (req, res) => {
+router.get('/', (req, res) => {
   res.render('index')
 })
 
-app.post('/', async (req, res) => {
+router.post('/', async (req, res) => {
   const { email, name } = req.body
 
   const auth = new google.auth.GoogleAuth({
