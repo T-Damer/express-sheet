@@ -16,7 +16,7 @@ router.post('/', async (req, res) => {
   const { email, name } = req.body
 
   const auth = new google.auth.GoogleAuth({
-    keyFile: 'credentials.json',
+    keyFile: process.env.CREDENTIALS,
     scopes: 'https://www.googleapis.com/auth/spreadsheets',
   })
 
@@ -29,8 +29,7 @@ router.post('/', async (req, res) => {
     auth: client,
   })
 
-  const spreadsheetId =
-    '1nnj_zBQCFMr-EUdzXe-Bo_bonlZ0YvlVuAJ3AoNb9YU'
+  const spreadsheetId = process.env.SHEET_ID
 
   // Write row(s) to spreadsheet
   await googleSheets.spreadsheets.values.append({
