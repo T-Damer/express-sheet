@@ -172,9 +172,10 @@ a {
 .sheet__link {
   display: flex;
   flex-direction: row;
-  background-color: #f3f3f3;
+  margin-top: 0.5rem;
+  background-color: #fff;
+  padding: 5rem;
   border-radius: 0.6rem;
-  padding: 0.5rem;
 }
 
 @media (max-width: 600px) {
