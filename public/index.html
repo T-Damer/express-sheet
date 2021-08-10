@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -40,25 +39,26 @@
     />
      <!-- Styles -->
     <meta name="theme-color" content="#000000" />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Express Sheet 📃</title>
   </head>
-  <body class="main">
-    <form action="" method="POST" class="form__box">
+  <body class="body__container">
+    <form action="" method="POST" class="card">
       <h1>Subscribe ⚡</h1>
        <div class="form__item">
         <input
           name="email"
           id="email"
           placeholder="Enter your e-mail"
+          class="form__input"
         ></input>
       </div>
       <div class="form__item">
-        <input type="text" id="name" name="name" placeholder="Enter your name" />
+        <input class="form__input" type="text" id="name" name="name" placeholder="Enter your name" />
       </div>
-      <button type="submit" class="form__submit">Submit</button>
+      <button type="submit" value="submit" class="form__submit">Submit</button>
     </form>
-    <div class="sheet__link">
+    <div class="container">
       <a href="https://docs.google.com/spreadsheets/d/1nnj_zBQCFMr-EUdzXe-Bo_bonlZ0YvlVuAJ3AoNb9YU/edit?usp=sharing">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Google_Sheets_logo_%282014-2020%29.svg/1498px-Google_Sheets_logo_%282014-2020%29.svg.png" width="80" height="100"></img>
       </a>
@@ -67,4 +67,3 @@
       </a>
     </div>
   </body>
-</html>
