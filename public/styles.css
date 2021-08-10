@@ -169,6 +169,14 @@ a {
   padding: 0.5rem;
 }
 
+.sheet__link {
+  display: flex;
+  flex-direction: row;
+  background-color: #f3f3f3;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
