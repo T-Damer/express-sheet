@@ -16,7 +16,7 @@ router.post('/', async (req, res) => {
   const { email, name } = req.body
 
   const auth = new google.auth.GoogleAuth({
-    keyFile: process.env.CREDENTIALS,
+    keyFile: process.env.GOOGLE_APPLICATION_CREDENTIALS,
     scopes: 'https://www.googleapis.com/auth/spreadsheets',
   })
 
