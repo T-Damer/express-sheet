@@ -163,6 +163,7 @@ a {
   padding: 0.5rem;
 }
 .form__submit {
+  margin-top: 0.5rem;
   border-radius: 3rem;
   border-color: #fff;
   padding: 0.5rem;

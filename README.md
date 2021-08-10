@@ -1,5 +1,9 @@
 <a href="https://express-sheets-td.herokuapp.com/"><img width="300" height="300" src="https://user-images.githubusercontent.com/49658988/127885907-b68ddad2-6f55-4daa-a05c-4fe2ea316baf.png" /></a>
 
+# Demo
+
+![FEoeuCoeKR](https://user-images.githubusercontent.com/49658988/128833676-8cd09477-7916-43ce-8ee1-9efb02df8d13.gif)
+
 # Google Sheets + Node.js/Express
 
 Simple Node.js/Express app (with EJS frontend) that integrates with Google Sheets to read/update data. This application demos the functionality with a simple "Client Request"
