@@ -147,7 +147,7 @@ a {
 .form__item {
   display: flex;
   flex-direction: column;
-  padding-top: 1.5rem;
+  padding-top: 0.5rem;
 }
 .form__input {
   border-radius: 0.6rem;
