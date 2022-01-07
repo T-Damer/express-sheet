@@ -14,7 +14,7 @@ Simple Node.js/Express app (with EJS frontend) that integrates with Google Sheet
 
 1. Clone the repo to your local machine `git clone https://github.com/T-Damer/next-sheet.git`.
 2. Then cd into folder: `cd next-sheet`.
-3. Add the `.env` and `secret.json` file to your repo
+3. Add the `.env` and `credentials.json` (with your google credentials) file to your repo
 4. Run the development server using `yarn develop`
 5. Open in the [localhost:1337](http://localhost:1337/) in your browser
 

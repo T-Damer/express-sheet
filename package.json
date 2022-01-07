@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Simple Node.js/Express app (with EJS frontend) that integrates with Google Sheets to save the data",
   "main": "app.js",
+  "author": "t-damer",
+  "repository": "https://github.com/T-Damer/express-sheet",
   "scripts": {
     "start": "node app.js",
     "develop": "nodemon app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
