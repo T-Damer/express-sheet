@@ -275,21 +275,6 @@ ansi-red@^0.1.1:
   dependencies:
     ansi-wrap "0.1.0"
 
-ansi-regex@^2.0.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
-  integrity sha1-w7M6te42DYbg5ijwRorn7yfWVN8=
-
-ansi-regex@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-4.1.0.tgz#8b9f8f08cf1acb843756a839ca8c7e3168c51997"
-  integrity sha512-1apePfXM1UOSqw0o9IiFAovVz9M5S1Dg+4TrDwfMewQ6p/rmMueb7tWZjQ1rx4Loy1ArBggoqGpfqqdI4rondg==
-
-ansi-regex@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-5.0.0.tgz#388539f55179bf39339c81af30a654d69f87cb75"
-  integrity sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg==
-
 ansi-regex@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
@@ -770,7 +755,7 @@ base-data@^0.6.0:
     mixin-deep "^1.2.0"
     read-file "^0.2.0"
     resolve-glob "^1.0.0"
-    set-value "^2.0.0"
+    set-value "^4.0.1"
     union-value "^1.0.0"
 
 base-engines@^0.2.0:
@@ -856,7 +841,7 @@ base-option@^0.8.2, base-option@^0.8.3, base-option@^0.8.4:
     lazy-cache "^2.0.1"
     mixin-deep "^1.1.3"
     option-cache "^3.4.0"
-    set-value "^0.3.3"
+    set-value "^4.0.1"
 
 base-pkg@^0.2.4:
   version "0.2.5"
@@ -1020,15 +1005,6 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-braces@^1.8.2:
-  version "1.8.5"
-  resolved "https://registry.yarnpkg.com/braces/-/braces-1.8.5.tgz#ba77962e12dff969d6b76711e914b737857bf6a7"
-  integrity sha1-uneWLhLf+WnWt2cR6RS3N4V79qc=
-  dependencies:
-    expand-range "^1.8.1"
-    preserve "^0.2.0"
-    repeat-element "^1.1.2"
-
 braces@~3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
@@ -1057,7 +1033,7 @@ cache-base@^0.8.2, cache-base@^0.8.4:
     has-value "^0.3.1"
     isobject "^3.0.0"
     lazy-cache "^2.0.1"
-    set-value "^0.4.2"
+    set-value "^4.0.1"
     to-object-path "^0.3.0"
     union-value "^0.2.3"
     unset-value "^0.1.1"
@@ -1072,7 +1048,7 @@ cache-base@^1.0.0, cache-base@^1.0.1:
     get-value "^2.0.6"
     has-value "^1.0.0"
     isobject "^3.0.1"
-    set-value "^2.0.0"
+    set-value "^4.0.1"
     to-object-path "^0.3.0"
     union-value "^1.0.0"
     unset-value "^1.0.0"
@@ -1307,11 +1283,11 @@ common-config@^0.1.0:
     object.pick "^1.1.2"
     omit-empty "^0.4.1"
     question-cache "^0.4.0"
-    set-value "^3.0.1"
+    set-value "^4.0.1"
     strip-color "^0.1.0"
     tableize-object "^0.1.0"
     text-table "^0.2.0"
-    yargs-parser "^2.4.0"
+    yargs-parser "^5.0.1"
 
 component-emitter@^1.2.0, component-emitter@^1.2.1:
   version "1.3.0"
@@ -1487,15 +1463,6 @@ default-compare@^1.0.0:
   integrity sha512-QWfXlM0EkAbqOCbD/6HjdwT19j7WCkMyiRhWilc4H9/5h/RzTF9gv5LYh1+CmDV5d1rki6KAWLtQale0xt20eQ==
   dependencies:
     kind-of "^5.0.2"
-
-defaults-deep@^0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/defaults-deep/-/defaults-deep-0.2.4.tgz#a479cfeafce025810fb93aa8d2dde0ee2d677cc6"
-  integrity sha512-V6BtqzcMvn0EPOy7f+SfMhfmTawq+7UQdt9yZH0EBK89+IHo5f+Hse/qzTorAXOBrQpxpwb6cB/8OgtaMrT+Fg==
-  dependencies:
-    for-own "^0.1.3"
-    is-extendable "^0.1.1"
-    lazy-cache "^0.2.3"
 
 defer-to-connect@^1.0.1:
   version "1.1.3"
@@ -1682,7 +1649,7 @@ engine@^0.1.12, engine@^0.1.5:
     kind-of "^2.0.1"
     lazy-cache "^0.2.3"
     object.omit "^2.0.0"
-    set-value "^0.2.0"
+    set-value "^4.0.1"
 
 error-symbol@^0.1.0:
   version "0.1.0"
@@ -1735,7 +1702,7 @@ expand-args@^0.4.1:
     minimist "^1.2.0"
     mixin-deep "^1.1.3"
     omit-empty "^0.4.1"
-    set-value "^0.3.3"
+    set-value "^4.0.1"
 
 expand-brackets@^0.1.4:
   version "0.1.5"
@@ -1752,7 +1719,7 @@ expand-object@^0.4.2:
     get-stdin "^5.0.1"
     is-number "^2.1.0"
     minimist "^1.2.0"
-    set-value "^0.3.3"
+    set-value "^4.0.1"
 
 expand-pkg@^0.1.8:
   version "0.1.9"
@@ -1761,7 +1728,6 @@ expand-pkg@^0.1.8:
   dependencies:
     component-emitter "^1.2.1"
     debug "^2.4.1"
-    defaults-deep "^0.2.4"
     export-files "^2.1.1"
     get-value "^2.0.6"
     kind-of "^3.1.0"
@@ -2140,29 +2106,6 @@ git-repo-name@^0.6.0:
     lazy-cache "^1.0.4"
     remote-origin-url "^0.5.1"
 
-glob-base@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/glob-base/-/glob-base-0.3.0.tgz#dbb164f6221b1c0b1ccf82aea328b497df0ea3c4"
-  integrity sha1-27Fk9iIbHAscz4Kuoyi0l98Oo8Q=
-  dependencies:
-    glob-parent "^2.0.0"
-    is-glob "^2.0.0"
-
-glob-parent@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-2.0.0.tgz#81383d72db054fcccf5336daa902f182f6edbb28"
-  integrity sha1-gTg9ctsFT8zPUzbaqQLxgvbtuyg=
-  dependencies:
-    is-glob "^2.0.0"
-
-glob-parent@^3.0.0, glob-parent@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-3.1.0.tgz#9e6af6299d8d3bd2bd40430832bd113df906c5ae"
-  integrity sha1-nmr2KZ2NO9K9QEMIMr0RPfkGxa4=
-  dependencies:
-    is-glob "^3.1.0"
-    path-dirname "^1.0.0"
-
 glob-parent@~5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
@@ -2177,7 +2120,7 @@ glob-stream@^5.3.2:
   dependencies:
     extend "^3.0.0"
     glob "^5.0.3"
-    glob-parent "^3.0.0"
+    glob-parent "^5.1.2"
     micromatch "^2.3.7"
     ordered-read-streams "^0.3.0"
     through2 "^0.6.0"
@@ -2377,7 +2320,7 @@ has-ansi@^2.0.0:
   resolved "https://registry.yarnpkg.com/has-ansi/-/has-ansi-2.0.0.tgz#34f5049ce1ecdf2b0649af3ef24e45ed35416d91"
   integrity sha1-NPUEnOHs3ysGSa8+8k5F7TVBbZE=
   dependencies:
-    ansi-regex "^2.0.0"
+    ansi-regex "^5.0.1"
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -2569,7 +2512,7 @@ inquirer2@^0.1.1:
   integrity sha1-vFQkqBQ1fEHmXi6Vf+U2ruqb8fY=
   dependencies:
     ansi-escapes "^1.1.1"
-    ansi-regex "^2.0.0"
+    ansi-regex "^5.0.1"
     arr-flatten "^1.0.1"
     arr-pluck "^0.1.0"
     array-unique "^0.2.1"
@@ -3171,7 +3114,7 @@ load-templates@^0.11.3:
   dependencies:
     define-property "^0.2.5"
     extend-shallow "^2.0.1"
-    glob-parent "^2.0.0"
+    glob-parent "^5.1.2"
     has-glob "^0.1.1"
     is-valid-glob "^0.3.0"
     lazy-cache "^2.0.1"
@@ -3185,7 +3128,7 @@ load-templates@^1.0.2:
   dependencies:
     extend-shallow "^2.0.1"
     file-contents "^1.0.0"
-    glob-parent "^3.1.0"
+    glob-parent "^5.1.2"
     is-glob "^3.1.0"
     kind-of "^3.1.0"
     lazy-cache "^2.0.2"
@@ -3473,7 +3416,7 @@ map-schema@^0.2.3, map-schema@^0.2.4:
     object.pick "^1.2.0"
     omit-empty "^0.4.1"
     pad-right "^0.2.2"
-    set-value "^0.4.0"
+    set-value "^4.0.1"
     sort-object-arrays "^0.1.1"
     union-value "^0.2.3"
 
@@ -3574,7 +3517,7 @@ merge-value@^1.0.0:
     get-value "^2.0.6"
     is-extendable "^1.0.0"
     mixin-deep "^1.2.0"
-    set-value "^2.0.0"
+    set-value "^4.0.1"
 
 methods@~1.1.2:
   version "1.1.2"
@@ -3588,7 +3531,7 @@ micromatch@^2.3.10, micromatch@^2.3.11, micromatch@^2.3.7, micromatch@^2.3.8:
   dependencies:
     arr-diff "^2.0.0"
     array-unique "^0.2.1"
-    braces "^1.8.2"
+    braces "^3.0.2"
     expand-brackets "^0.1.4"
     extglob "^0.3.1"
     filename-regex "^2.0.0"
@@ -3633,11 +3576,6 @@ minimist@^1.2.0, minimist@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
-
-minimist@~0.0.1:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
-  integrity sha1-3j+YVD2/lggr5IrRoMfNqDYwHc8=
 
 mixin-deep@^1.1.3, mixin-deep@^1.2.0:
   version "1.3.2"
@@ -3893,7 +3831,7 @@ onetime@^1.0.0:
   resolved "https://registry.yarnpkg.com/optimist/-/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
   integrity sha1-2j6nRob6IaGaERwybpDrFaAZZoY=
   dependencies:
-    minimist "~0.0.1"
+    minimist "~1.2.0"
     wordwrap "~0.0.2"
 
 option-cache@^3.3.5, option-cache@^3.4.0:
@@ -3908,7 +3846,7 @@ option-cache@^3.3.5, option-cache@^3.4.0:
     has-value "^0.3.1"
     kind-of "^3.2.2"
     lazy-cache "^2.0.2"
-    set-value "^0.4.3"
+    set-value "^4.0.1"
     to-object-path "^0.3.0"
 
 ordered-read-streams@^0.3.0:
@@ -4145,7 +4083,7 @@ question-cache@^0.4.0:
     option-cache "^3.3.5"
     os-homedir "^1.0.1"
     project-name "^0.2.4"
-    set-value "^0.3.3"
+    set-value "^4.0.1"
     to-choices "^0.2.0"
     use "^1.1.2"
 
@@ -4170,7 +4108,7 @@ question-cache@^0.5.1:
     option-cache "^3.4.0"
     os-homedir "^1.0.1"
     project-name "^0.2.5"
-    set-value "^0.3.3"
+    set-value "^4.0.1"
     to-choices "^0.2.0"
     use "^2.0.0"
 
@@ -4545,50 +4483,6 @@ set-getter@^0.1.0:
   dependencies:
     to-object-path "^0.3.0"
 
-set-value@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/set-value/-/set-value-0.2.0.tgz#73b0a6825c158c6a16a82bbdc95775bf2a825fab"
-  integrity sha1-c7CmglwVjGoWqCu9yVd1vyqCX6s=
-  dependencies:
-    isobject "^1.0.0"
-    noncharacters "^1.1.0"
-
-set-value@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/set-value/-/set-value-0.3.3.tgz#b81223681638a1088fd88a435b8a9d32dae8d9ba"
-  integrity sha1-uBIjaBY4oQiP2IpDW4qdMtro2bo=
-  dependencies:
-    extend-shallow "^2.0.1"
-    isobject "^2.0.0"
-    to-object-path "^0.2.0"
-
-set-value@^0.4.0, set-value@^0.4.2, set-value@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/set-value/-/set-value-0.4.3.tgz#7db08f9d3d22dc7f78e53af3c3bf4666ecdfccf1"
-  integrity sha1-fbCPnT0i3H945Trzw79GZuzfzPE=
-  dependencies:
-    extend-shallow "^2.0.1"
-    is-extendable "^0.1.1"
-    is-plain-object "^2.0.1"
-    to-object-path "^0.3.0"
-
-set-value@^2.0.0, set-value@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/set-value/-/set-value-2.0.1.tgz#a18d40530e6f07de4228c7defe4227af8cad005b"
-  integrity sha512-JxHc1weCN68wRY0fhCoXpyK55m/XPHafOmK4UWD7m2CI14GMcFypt4w/0+NV5f/ZMby2F6S2wwA7fgynh9gWSw==
-  dependencies:
-    extend-shallow "^2.0.1"
-    is-extendable "^0.1.1"
-    is-plain-object "^2.0.3"
-    split-string "^3.0.1"
-
-set-value@^3.0.1:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/set-value/-/set-value-3.0.2.tgz#74e8ecd023c33d0f77199d415409a40f21e61b90"
-  integrity sha512-npjkVoz+ank0zjlV9F47Fdbjfj/PfXyVhZvGALWsyIYU/qrMzpi6avjKW3/7KeSU2Df3I46BrN1xOI1+6vW0hA==
-  dependencies:
-    is-plain-object "^2.0.4"
-
 setprototypeof@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.2.0.tgz#66c9a24a73f9fc28cbe66b09fed3d33dcaf1b424"
@@ -4733,21 +4627,21 @@ strip-ansi@^3.0.0:
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-3.0.1.tgz#6a385fb8853d952d5ff05d0e8aaf94278dc63dcf"
   integrity sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=
   dependencies:
-    ansi-regex "^2.0.0"
+    ansi-regex "^5.0.1"
 
 strip-ansi@^5.1.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-5.2.0.tgz#8c9a536feb6afc962bdfa5b104a5091c1ad9c0ae"
   integrity sha512-DuRs1gKbBqsMKIZlrffwlug8MHkcnpjs5VPmL1PAh+mA30U0DTotfDZ0d2UUsXpPmPmMMJ6W773MaA3J+lbiWA==
   dependencies:
-    ansi-regex "^4.1.0"
+    ansi-regex "^5.0.1"
 
 strip-ansi@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.0.tgz#0b1571dd7669ccd4f3e06e14ef1eed26225ae532"
   integrity sha512-AuvKTrTfQNYNIctbR1K/YGTR1756GycPsg7b9bdV9Duqur4gv6aKqHXah67Z8ImS7WEz5QVcOtlfW2rZEugt6w==
   dependencies:
-    ansi-regex "^5.0.0"
+    ansi-regex "^5.0.1"
 
 strip-ansi@^6.0.1:
   version "6.0.1"
@@ -4874,7 +4768,7 @@ templates@^0.24.0:
     mixin-deep "^1.1.3"
     paginationator "^0.1.3"
     pascalcase "^0.1.1"
-    set-value "^0.3.3"
+    set-value "^4.0.1"
     template-error "^0.1.2"
     vinyl-item "^0.1.0"
     vinyl-view "^0.1.2"
@@ -4959,7 +4853,7 @@ to-file@^0.2.0:
     define-property "^0.2.5"
     extend-shallow "^2.0.1"
     file-contents "^0.2.4"
-    glob-parent "^2.0.0"
+    glob-parent "^5.1.2"
     is-valid-glob "^0.3.0"
     isobject "^2.1.0"
     lazy-cache "^2.0.1"
@@ -5065,7 +4959,7 @@ union-value@^0.2.3:
     arr-union "^3.1.0"
     get-value "^2.0.6"
     is-extendable "^0.1.1"
-    set-value "^0.4.3"
+    set-value "^4.0.1"
 
 union-value@^1.0.0, union-value@^1.0.1:
   version "1.0.1"
@@ -5075,7 +4969,7 @@ union-value@^1.0.0, union-value@^1.0.1:
     arr-union "^3.1.0"
     get-value "^2.0.6"
     is-extendable "^0.1.1"
-    set-value "^2.0.1"
+    set-value "^4.0.1"
 
 unique-stream@^2.0.2:
   version "2.3.1"
@@ -5166,7 +5060,7 @@ update@^0.7.4:
     strip-color "^0.1.0"
     text-table "^0.2.0"
     through2 "^2.0.1"
-    yargs-parser "^2.4.1"
+    yargs-parser "^5.0.1"
 
 upper-case@^1.1.1:
   version "1.1.3"
@@ -5377,10 +5271,3 @@ yallist@^4.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-yargs-parser@^2.4.0, yargs-parser@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-2.4.1.tgz#85568de3cf150ff49fa51825f03a8c880ddcc5c4"
-  integrity sha1-hVaN488VD/SfpRgl8DqMiA3cxcQ=
-  dependencies:
-    camelcase "^3.0.0"
-    lodash.assign "^4.0.6"

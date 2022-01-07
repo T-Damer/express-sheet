@@ -7,9 +7,11 @@ import { google } from 'googleapis'
 
 const app = express()
 const router = Router()
+
 app.set('view engine', 'html')
 app.use(static(__dirname + '/public'))
 app.use(urlencoded({ extended: true }))
+app.use(cors())
 app.use('/', router)
 
 router.get('/', (req, res) => {
