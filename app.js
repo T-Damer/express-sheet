@@ -46,7 +46,9 @@ router.post('/', async (req, res) => {
     },
   })
 
-  res.send('Successfully submitted! Thank you!')
+  res.send(
+    `Successfully submitted! Thank you! \n <a href="https://docs.google.com/spreadsheets/d/${process.env.SHEET_ID}">Check it out</a> \n <a href="/">Go back</a>`
+  )
 })
 
 app.listen(process.env.PORT || 3000, () =>
