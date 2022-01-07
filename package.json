@@ -1,23 +1,23 @@
 {
-  "name": "video-request",
+  "name": "express-sheets",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple Node.js/Express app (with EJS frontend) that integrates with Google Sheets to save the data",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "develop": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "googleapis": "^67.1.0",
+    "express": "^4.17.2",
+    "googleapis": "^92.0.0",
     "to": "^0.2.9",
     "update": "^0.7.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.15"
   }
 }

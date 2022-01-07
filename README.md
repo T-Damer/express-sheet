@@ -6,49 +6,23 @@
 
 # Google Sheets + Node.js/Express
 
-Simple Node.js/Express app (with EJS frontend) that integrates with Google Sheets to read/update data. This application demos the functionality with a simple "Client Request"
+Simple Node.js/Express app (with EJS frontend) that integrates with Google Sheets to read/update data. This application demonstrates the functionality with a simple `PUT` request
 
 ---
 
-## Getting Started
+## Dev Info
 
-### Setup
+1. Clone the repo to your local machine `git clone https://github.com/T-Damer/next-sheet.git`.
+2. Then cd into folder: `cd next-sheet`.
+3. Add the `.env` file to your repo, consider looking at `.env.example`
+4. Run the development server using `yarn develop`
+5. Open in the [localhost:1337](http://localhost:1337/) in your browser
 
-You need to add a file to the root of this project called "credentials.json"
-
-### First
-
-Clone the repo to your local machine:
-
-```bash
-git clone https://github.com/T-Damer/next-sheet.git
-```
-
-Then cd into folder:
-
-```bash
-cd next-sheet
-```
-
-### Second
-
-Add the `.env` and `secrets.json` files to your repo, consider looking at `.env.example`
-
-List of variables:
+### List of variables:
 
 | GOOGLE_APPLICATION_CREDENTIALS                                                                                                                                                                                               | SHEET_ID                                                                                    |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | This is your secrets, which you get from [google.apis](https://console.cloud.google.com/apis/), connect google.sheets -> credentials -> your account -> keys -> create new api key like JSON -> paste data to `secrets.json` | Share your sheets so anyone can edit and copy-paste only id in url after `/d/{yourSheetId}` |
-
-### Third
-
-Run the development server:
-
-`nodemon index.js`
-(`node index.js` for deployment)
-
-Open in browser:
-[localhost:1337](http://localhost:1337/)
 
 ---
 

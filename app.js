@@ -1,11 +1,15 @@
-const express = require('express')
-const { google } = require('googleapis')
+import express, {
+  Router,
+  static,
+  urlencoded,
+} from 'express'
+import { google } from 'googleapis'
 
 const app = express()
-const router = express.Router()
+const router = Router()
 app.set('view engine', 'html')
-app.use(express.static(__dirname + '/public'))
-app.use(express.urlencoded({ extended: true }))
+app.use(static(__dirname + '/public'))
+app.use(urlencoded({ extended: true }))
 app.use('/', router)
 
 router.get('/', (req, res) => {
@@ -45,6 +49,6 @@ router.post('/', async (req, res) => {
   res.send('Successfully submitted! Thank you!')
 })
 
-app.listen(process.env.PORT || 3000, (req, res) =>
+app.listen(process.env.PORT || 3000, () =>
   console.log('running on 3000')
 )
